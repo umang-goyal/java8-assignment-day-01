@@ -12,7 +12,7 @@ public class App {
         List<String> citiesOfGoa = Arrays.asList("Calangute", "Canacona", "Calangute", "panchim");
 
         State goa = new State(citiesOfGoa);
-        System.out.println(goa.startsWith("C"));
+        System.out.println(goa.startsWith("c"));
 
         User jagan = new User(78, "jagan", 56, "Delhi");
         User shambu = new User(2, "shambu", 22, "Delhi");

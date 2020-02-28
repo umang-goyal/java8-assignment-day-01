@@ -11,6 +11,6 @@ public class State {
     }
 
     List<String> startsWith(String s) {
-        return cities.stream().filter(city -> city.startsWith(s)).sorted().collect(Collectors.toList());
+        return cities.stream().filter(city -> city.toLowerCase().startsWith(s)).sorted().collect(Collectors.toList());
     }
 }
