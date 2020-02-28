@@ -36,12 +36,17 @@ public class Utilities {
                 .collect(Collectors.toList());
     }
 
-    List<Integer> mapLists(List<Integer> first, List<Integer> second) {
+    List<Integer> mapLists(List<Integer> first, List<Integer> second) throws MappingListException {
+        if (first.size() != second.size())
+        {
+            throw new MappingListException("List size not equal");
+        }
 
-        return IntStream.range(0, first.size())
-                .map(index -> first.get(index) * second.get(index))
-                .boxed()
-                .collect(Collectors.toList());
+        else {
+            return IntStream.range(0, first.size())
+                    .map(index -> first.get(index) * second.get(index))
+                    .boxed()
+                    .collect(Collectors.toList());
+        }
     }
-
 }

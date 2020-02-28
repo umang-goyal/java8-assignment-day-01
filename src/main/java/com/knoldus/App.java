@@ -26,9 +26,11 @@ public class App {
         System.out.println(obj.ageEven(userList));
         System.out.println(obj.idAbove10AgeLessThan20(userList));
 
-        List<Integer> list1 = Arrays.asList(1, 2, 3, 4);
+        List<Integer> list1 = Arrays.asList(1, 2, 3,9, 4);
         List<Integer> list2 = Arrays.asList(1, 2, 3, 4);
 
-        System.out.println(obj.mapLists(list1, list2));
+        try {
+            System.out.println(obj.mapLists(list1, list2));
+        } catch(Exception m){System.out.println("Exception occured: " +m);}
     }
 }
