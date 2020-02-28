@@ -6,8 +6,8 @@ import java.util.stream.IntStream;
 
 public class Utilities {
 
-    /**.
-     * implements the abstract method of Pentagon interface to calculate perimeter of a pentagon
+    /**
+     * implements the abstract method of Pentagon interface to calculate perimeter of a pentagon.
      * @return length of the pentagon perimeter
      */
 
@@ -16,8 +16,8 @@ public class Utilities {
         return shape.configuration(1, 2, 3, 4, 5);
     }
 
-    /**.
-     * takes list of Users type and finds User who have age above 18 and address delhi
+    /**
+     * takes list of Users type and finds User who have age above 18 and address delhi.
      * @param list List of User type
      * @return list of User type who satisfy the condition
      */
@@ -28,8 +28,8 @@ public class Utilities {
                 .collect(Collectors.toList());
     }
 
-    /**.
-     * checks if a User has id above 10 and age less than 20
+    /**
+     * checks if a User has id above 10 and age less than 20.
      * @param list List of User type
      * @return list of User type who satisfy the condition
      */
@@ -40,8 +40,8 @@ public class Utilities {
                 .collect(Collectors.toList());
     }
 
-    /**.
-     * checks if a User age is a even number
+    /**
+     * checks if a User age is a even number.
      * @param list List of User type
      * @return list of User type who satisfy the condition
      */
@@ -52,8 +52,8 @@ public class Utilities {
                 .collect(Collectors.toList());
     }
 
-    /**.
-     * checks if a User has id above 10 and age less than 20
+    /**
+     * checks if a User has id above 10 and age less than 20.
      * @param list List of User type
      * @return list of User type who satisfy the condition
      */
@@ -65,8 +65,8 @@ public class Utilities {
                 .collect(Collectors.toList());
     }
 
-    /**.
-     * multiplies corresponding elements of two list
+    /**
+     * multiplies corresponding elements of two list.
      * @param first first list of integer
      * @param second second list integer
      * @return list with elements as product of input list elem

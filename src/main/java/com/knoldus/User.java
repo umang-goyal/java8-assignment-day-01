@@ -1,6 +1,6 @@
 package com.knoldus;
 
-/**.
+/**
  * Defines User with name, id, age and address.
  */
 

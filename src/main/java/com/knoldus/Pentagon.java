@@ -1,13 +1,13 @@
 package com.knoldus;
 
-/**.
- * Pentagon interface defines a pentagon shape
+/**
+ * Pentagon interface defines a pentagon shape.
  */
 
 @FunctionalInterface
 public interface Pentagon {
-    /**.
-     * configuration method defines the side lengths of the shape and can be modified to perform any computation on them
+    /**
+     * defines the side lengths of the shape and can be modified to perform any computation on them.
      * @param side1 length of side 1
      * @param side2 length of side 2
      * @param side3 length of side 3

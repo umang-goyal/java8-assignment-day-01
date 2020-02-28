@@ -11,16 +11,16 @@ import java.util.stream.Collectors;
 public class State {
     List<String> cities;
 
-    /**.
-     * setter of list of cities of the state
+    /**
+     * setter of list of cities of the state.
      * @param cities list of cities
      */
     public State(List<String> cities) {
         this.cities = cities;
     }
 
-    /**.
-     * returns list of cities whose name starts with passed string
+    /**
+     * returns list of cities whose name starts with passed string.
      * @param s string for checking the beginning of the string
      * @return list cities which satisfy the condition
      */
