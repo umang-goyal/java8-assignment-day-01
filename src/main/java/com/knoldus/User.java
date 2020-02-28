@@ -1,5 +1,9 @@
 package com.knoldus;
 
+/**.
+ * Defines User with name, id, age and address.
+ */
+
 public class User {
     Integer id;
     String name;
@@ -15,11 +19,11 @@ public class User {
 
     @Override
     public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", age=" + age +
-                ", address='" + address + '\'' +
-                '}';
+        return "User{"
+                + "id=" + id
+                + ", name='" + name + '\''
+                + ", age=" + age
+                + ", address='" + address + '\''
+                + '}';
     }
 }

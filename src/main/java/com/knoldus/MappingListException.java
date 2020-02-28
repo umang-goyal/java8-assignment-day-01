@@ -1,8 +1,7 @@
 package com.knoldus;
 
-class MappingListException extends Exception{
+class MappingListException extends Exception {
     MappingListException(String s) {
         super(s);
     }
-
 }

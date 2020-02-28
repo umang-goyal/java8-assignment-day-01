@@ -7,7 +7,7 @@ public class App {
 
     public static void main(String[] args) {
         Utilities obj = new Utilities();
-        System.out.println(obj.perimeter());
+        System.out.println(obj.perimeterOfPentagon());
 
         List<String> citiesOfGoa = Arrays.asList("Calangute", "Canacona", "Calangute", "panchim");
 
@@ -26,11 +26,13 @@ public class App {
         System.out.println(obj.ageEven(userList));
         System.out.println(obj.idAbove10AgeLessThan20(userList));
 
-        List<Integer> list1 = Arrays.asList(1, 2, 3,9, 4);
+        List<Integer> list1 = Arrays.asList(1, 2, 3, 9, 4);
         List<Integer> list2 = Arrays.asList(1, 2, 3, 4);
 
         try {
             System.out.println(obj.mapLists(list1, list2));
-        } catch(Exception m){System.out.println("Exception occured: " +m);}
+        } catch (Exception m) {
+            System.out.println("Exception occured: " + m);
+        }
     }
 }
